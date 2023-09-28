@@ -1,6 +1,6 @@
 Javascript Assignment
 
-1. Git intasll 
+1. Git install 
 2. Project ke folder ma cmd me commands:
 3. Git init
 4. Git remote add origin https://github.com/Sm9090/JSASSIGNMENT.git
