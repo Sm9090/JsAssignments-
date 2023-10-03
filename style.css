@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Parent1{
+    margin: auto;
+    border: 4px solid maroon;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.Parent-child{
+    display: flex;
+
+}
+h1{
+    color: maroon;
+    font-size: 35px;
+}
+
+button{
+    font-size: 25px;
+    padding: 15px 27px;
+    border: 4px solid maroon;
+    border-radius: 34px;
+    margin: 15px;
+    background-color: white;
+    color: maroon;
+    font-weight: bold;
+}
+button:hover{
+    background-color: maroon;
+    color: white;
+
+}
+
+.pad-31{
+    padding: 15px 31px;
+
+}
+.pad-30{
+    padding: 15px 30.5px;
+
+}
+.pad-29{
+    padding: 15px 29.5px;
+
+}
+.pad-25{
+    padding: 15px 25px;
+    border: 4px solid black;
+    background-color: red;
+    color: white;
+}
+.pad-22{
+    padding: 15px 22.5px;
+
+}
+.pad-16{
+    padding: 15px 16px;
+}
+.absolute{
+    position: absolute;
+    right: 29.5rem;
+    padding: 64px 27px;
+    background-color: maroon;
+    color: white;
+}
+
+input{
+    font-size: 25px;
+    margin: 15px;
+    width: 87%;
+    padding: 15px 10px;
+    border-radius: 14px;
+    color: maroon;
+    border: 4px solid maroon;
+    /* border-color: ; */
+}

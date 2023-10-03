@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./Script.js"></script>
+</head>
+
+<body>
+    <div class="Grand-Parent">
+    <div class="Parent1">
+        
+            <h1>Memoni Calulator</h1>
+            <input type="text" value="0" id="Input">
+        
+        <div class="Parent-child">
+            
+            <button onClick="cls()" class="pad-16">CE</button>
+            <button onClick="del()" class="pad-25">X</button>
+            <button onClick="getNum('/')" class="pad-31">/</button>
+                <button onClick="getNum('*')" class="pad-29">*</button>
+            </div>
+            <div class="Parent-child">
+                
+                <button onClick="getNum(7)" >7</button>
+                <button onClick="getNum(8)" class="pad-left-right">8</button>
+                <button onClick="getNum(9)" class="pad-left-right">9</button>
+                <button onClick="getNum('-')" class="pad-30">-</button>
+            </div>
+            <div class="Parent-child">
+                <button onClick="getNum(4)" class="pad-left-right">4</button>
+                <button onClick="getNum(5)" class="pad-left-right">5</button>
+                <button onClick="getNum(6)" class="pad-left-right">6</button>
+                <button onClick="getNum('+')" class="pad-left-right">+</button>
+
+            </div>
+            <div class="Parent-child" style="width: 75%;">
+
+                <button onClick="getNum(3)" class="pad-left-right">3</button>
+                <button onClick="getNum(2)" class="pad-left-right">2</button>
+                <button onClick="getNum(1)" class="pad-left-right">1</button>
+                <button onClick="calculate()" class="absolute">=</button>
+            </div>
+            <div class="Parent-child" style="width: 75%;">
+                
+                <button onClick="getNum('.')" class="pad-30">.</button>
+                <button onClick="getNum('%')" class="pad-22">%</button>
+                <button onClick="getNum(0)" class="pad-left-right">0</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
